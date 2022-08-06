@@ -3,29 +3,24 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: local('Montserrat-Bold'), url(./fonts/Montserrat-Bold.ttf) format('ttf');
+    font-style: normal;
+    src: local('Montserrat-Bold'), url(./fonts/Montserrat-Bold.woff2) format('woff2');
+    src: local('Montserrat-Regular'), url(./fonts/Montserrat-Regular.woff2) format('woff2');
   }
 
 @tailwind utilities;
 
-.box {
-    padding-right: 8.125rem;
-    padding-left: 8.125rem; 
-    margin-right: auto;
-    margin-left: auto;
-}
+@layer base {
+    body {
+      font-family: "Montserrat", sans-serif;
+      text-rendering: optimizeLegibility;
+    }
+  }
 
-.btn {
-    display: flex;
-    padding: 13px 24px 13px 16px;
-    background-color: #DA4446;
-    border-radius: 10px;
-    color: #FFFFFF;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
+@layer components {
+    .container {
+        @apply max-w-[1080px]
+    }
 }
 
 .deliver-title {

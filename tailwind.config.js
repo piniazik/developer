@@ -4,23 +4,31 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Montserrat', 'Bold', 'sans-serif']
+        montserratbold: ['Montserrat', 'Bold', 'sans-serif'],
+        montserratregular: ['Montserrat', 'Regular', 'sans-serif'],
       },
       screens: {
         '2xl': {'max': '1535px'},
-        // => @media (max-width: 1535px) { ... }
   
         'xl': {'max': '1279px'},
-        // => @media (max-width: 1279px) { ... }
   
         'lg': {'max': '1023px'},
-        // => @media (max-width: 1023px) { ... }
   
         'md': {'max': '767px'},
-        // => @media (max-width: 767px) { ... }
   
         'sm': {'max': '639px'},
-        // => @media (max-width: 639px) { ... }
+      },
+      container: {
+        padding: '0 15px',
+        center: true
+      },
+      extend: {
+        colors: {
+          lightblack: '#0D0820CC',
+          lightred: '#DA4446',
+          lightorange: '#FE917B',
+          darkblue: '#19274A'
+        }
       }
     },
   },

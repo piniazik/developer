@@ -12,7 +12,7 @@
             </div>
         </div>
             <div class="flex-1 pt-14">
-            <img src="../assets/images/exited.webp" alt="Deliver" class="img-fluid">
+            <img src="../assets/images/exited.webp" alt="Deliver" class="">
             </div>
        </div>
 </template>
