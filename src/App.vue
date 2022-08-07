@@ -7,13 +7,19 @@
           </a>
           <MenuHeader />
         </div>
-        <div class="">
+        </div>
+        <div class="wrap">
           <BusinessArea />
         </div>
-        <div class="">
+        <div class="wrap">
           <HowWorks />
         </div>
-    </div>
+         <div class="wrap">
+          <RealTime />
+        </div>
+         <div class="wrap">
+          <CollaborateCompanies />
+        </div>
   </div>
 </template>
 
@@ -21,6 +27,8 @@
   import MenuHeader from './components/MenuHeader.vue';
   import BusinessArea from './components/BusinessArea.vue';
   import HowWorks from './components/HowWorks.vue';
+  import RealTime from './components/RealTime.vue';
+  import CollaborateCompanies from './components/CollaborateCompanies.vue';
   import './assets/tailwind.css';
 
   export default {
@@ -29,6 +37,8 @@
       MenuHeader,
       BusinessArea,
       HowWorks,
+      RealTime,
+      CollaborateCompanies
     }
   }
 </script>
