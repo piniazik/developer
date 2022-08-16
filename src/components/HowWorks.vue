@@ -4,7 +4,7 @@
         <div class="text-center">
             <h2 class="font-bold text-base text-black text-[3.25rem]">How <span class="text-red-600">Deliver</span><span class="text-blue-900">In.</span> Works</h2>
         </div>
-        <div class="flex flex-wrap pt-[8rem] pb-[9rem]">
+        <div class="flex sm:flex-wrap pt-[8rem] pb-[9rem]">
             <div class="flex flex-col items-center w-72">
                 <div class="wrap">
                     <img src="../assets/svg/icon-download-min.svg" alt="Download Deliverin">

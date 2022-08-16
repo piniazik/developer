@@ -4,7 +4,7 @@
             <div class="text-center">
                 <h5 class="text-black text-base pb-6">We collaborate with 200+ of happy companies, including:</h5>
             </div>
-            <div class="flex justify-between flex-wrap sm:">
+            <div class="flex justify-between flex-wrap">
                 <div class="wrapper">
                     <svg class="cursor-pointer transition-opacity duration-1000 ease-out opacity-50 hover:opacity-100" width="162" height="100" viewBox="0 0 162 100" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
